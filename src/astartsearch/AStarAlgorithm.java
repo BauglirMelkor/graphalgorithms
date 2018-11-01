@@ -58,7 +58,7 @@ public class AStarAlgorithm {
 
 				if (!openSet.contains(neighbor))
 					openSet.add(neighbor);
-				
+
 				neighbor.setPredecessor(currentNode);
 
 			}
